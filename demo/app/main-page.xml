@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page" xmlns:ui="nativescript-modal-datetimepicker" style="margin-top: -20">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page" xmlns:ui="nativescript-modal-datetimepicker-ssi" style="margin-top: -20">
     <GridLayout rows="" columns="">
         <Image src="~/landscape.jpg" stretch="aspectFill" />
         <StackLayout class="p-20">

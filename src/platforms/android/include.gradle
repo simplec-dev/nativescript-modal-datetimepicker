@@ -2,8 +2,8 @@
 
 android {
 	productFlavors {
-		"nativescript-modal-datetimepicker" {
-			dimension "nativescript-modal-datetimepicker"
+		"nativescript-modal-datetimepicker-ssi" {
+			dimension "nativescript-modal-datetimepicker-ssi"
 		}
 	}
 }

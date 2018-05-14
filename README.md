@@ -1,27 +1,27 @@
-# nativescript-modal-datetimepicker [![Build Status](https://travis-ci.org/shiv19/nativescript-material-datetimepicker.svg?branch=master)](https://travis-ci.org/davecoffin/nativescript-modal-datetimepicker) [![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/nativescript-modal-datetimepicker) [![npm](https://img.shields.io/npm/v/nativescript-material-datetimepicker.svg)](https://www.npmjs.com/package/nativescript-modal-datetimepicker)
+# nativescript-modal-datetimepicker-ssi [![Build Status](https://travis-ci.org/shiv19/nativescript-material-datetimepicker.svg?branch=master)](https://travis-ci.org/davecoffin/nativescript-modal-datetimepicker-ssi) [![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/nativescript-modal-datetimepicker-ssi) [![npm](https://img.shields.io/npm/v/nativescript-material-datetimepicker.svg)](https://www.npmjs.com/package/nativescript-modal-datetimepicker-ssi)
 
 [![Twitter URL](https://img.shields.io/badge/twitter-%40MultiShiv19-blue.svg)](https://twitter.com/MultiShiv19)
 
 
-[![NPM](https://nodei.co/npm/nativescript-modal-datetimepicker.png)](https://nodei.co/npm/nativescript-modal-datetimepicker/)
+[![NPM](https://nodei.co/npm/nativescript-modal-datetimepicker-ssi.png)](https://nodei.co/npm/nativescript-modal-datetimepicker-ssi/)
 
 This plugin is a wrapper around `android.app.DatePickerDialog` for Android, and `UIDatePicker` for iOS.
 
 ## Android Screenshots
 
 ### Date Picker
-<img src="https://github.com/davecoffin/nativescript-modal-datetimepicker/blob/master/assets/datepicker.jpeg?raw=true" height="320" > 
+<img src="https://github.com/simplec-dev/nativescript-modal-datetimepicker-ssi/blob/master/assets/datepicker.jpeg?raw=true" height="320" > 
 
 ### Time Picker
-<img src="https://github.com/davecoffin/nativescript-modal-datetimepicker/blob/master/assets/timepicker.jpeg?raw=true" height="320" > 
+<img src="https://github.com/simplec-dev/nativescript-modal-datetimepicker-ssi/blob/master/assets/timepicker.jpeg?raw=true" height="320" > 
 
 ## iOS
-<img src="https://github.com/davecoffin/nativescript-modal-datetimepicker/blob/master/assets/iosdatepicker.gif?raw=true" height="320" > 
+<img src="https://github.com/simplec-dev/nativescript-modal-datetimepicker-ssi/blob/master/assets/iosdatepicker.gif?raw=true" height="320" > 
 
 ## Installation
 
 ```javascript
-tns plugin add nativescript-modal-datetimepicker
+tns plugin add nativescript-modal-datetimepicker-ssi
 ```
 
 ## Configuration 
@@ -48,7 +48,7 @@ NativeScript Core
 
 ```js
 
-const ModalPicker = require("nativescript-modal-datetimepicker").ModalDatetimepicker;
+const ModalPicker = require("nativescript-modal-datetimepicker-ssi").ModalDatetimepicker;
 
 const picker = new ModalPicker();
 

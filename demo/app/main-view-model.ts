@@ -1,5 +1,5 @@
 import { Observable } from 'tns-core-modules/data/observable';
-import { ModalDatetimepicker, PickerOptions } from 'nativescript-modal-datetimepicker';
+import { ModalDatetimepicker, PickerOptions } from 'nativescript-modal-datetimepicker-ssi';
 
 export class HelloWorldModel extends Observable {
     public date: string;

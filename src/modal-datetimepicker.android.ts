@@ -95,10 +95,10 @@ export class ModalDatetimepicker {
     options.is24HourView = options.is24HourView || false;
     return new Promise((resolve, reject) => {
       let now = Calendar.getInstance();
-      const hour = options.startingHour
+      const hour = (options.startingHour!=null && options.startingHour!=undefined && options.startingHour>=0)
         ? +options.startingHour
         : now.get(Calendar.HOUR_OF_DAY);
-      const minute = options.startingMinute
+      const minute = (options.startingMinute!=null && options.startingMinute!=undefined && options.startingMinute>=0)
         ? +options.startingMinute
         : now.get(Calendar.MINUTE);
       try {

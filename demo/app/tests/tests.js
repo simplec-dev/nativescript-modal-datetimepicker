@@ -1,4 +1,4 @@
-var ModalDatetimepicker = require("nativescript-modal-datetimepicker").ModalDatetimepicker;
+var ModalDatetimepicker = require("nativescript-modal-datetimepicker-ssi").ModalDatetimepicker;
 var modalDatetimepicker = new ModalDatetimepicker();
 
 describe("greet function", function() {
